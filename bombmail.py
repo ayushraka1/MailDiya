@@ -15,7 +15,7 @@ def banner():
  print("    \033[1;31;40m    Use a VPN before running it.Otherwise it won't work")
  print("\n\n")
 banner() 
-spam_id = input("\033[1;33;40mEnter the e-mail address of victim:")
+spam_id = str(raw_input("\033[1;33;40mEnter the e-mail address of victim:"))
 count= int(input("\033[1;33;40mEnter the number of e-mails to be sent(Maximum:34): "))
 if(count>34):
  print("\033[1;31;40mYour entered number is >34 .Quiting...")
