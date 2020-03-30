@@ -16,11 +16,11 @@ def banner():
 banner()
 print("          \033[1;32;40m[1] \033[1;36;40mAnonymous Mail")
 print("          \033[1;32;40m[2] \033[1;36;40mMail Bombing")
-op=str(input("\033[1;32;40mDiya>>>"))
+op=str(raw_input("\033[1;32;40mDiya>>>"))
 if(op=='1'):
- os.system("python3 anonmail.py")
+ os.system("python2 anonmail.py")
 elif(op=='2'):
- os.system("python3 bombmail.py")
+ os.system("python2 bombmail.py")
 else:
  print("\033[1;31;40mInvalid option.Quiting...")
  time.sleep(1.5)
