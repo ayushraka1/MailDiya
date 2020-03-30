@@ -13,9 +13,9 @@ def banner():
  print("    \033[1;31;40m    Use a VPN before running it.Otherwise it won't work")
  print("\n\n")
 banner()
-userid = str(input("\033[1;33;40mEnter The Email-id of victim : "))
-subject = str(input("\n\033[1;33;40mEnter the subject of your email : "))
-message = str(input("\n\033[1;33;40mEnter the message : "))
+userid = str(raw_input("\033[1;33;40mEnter The Email-id of victim : "))
+subject = str(raw_input("\n\033[1;33;40mEnter the subject of your email : "))
+message = str(raw_input("\n\033[1;33;40mEnter the message : "))
 with requests.session() as s:
  data1={'to':userid,'subject':subject,'text':message}
  r=s.post('http://anonymouse.org/cgi-bin/anon-email.cgi',data=data1)
