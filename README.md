@@ -41,11 +41,11 @@ Commands below provide instructions for Debian-based systems.
 To use the scanner type the following commands in Termux:
 ```
 pkg install git
-pkg install python3
+pkg install python2
 git clone https://github.com/tuhin1729/MailDiya.git
 cd MailDiya
 chmod +x maildiya.py
-python3 maildiya.py
+python2 maildiya.py
 ```
 
 ### > For Linux:
@@ -57,7 +57,7 @@ To use the scanner type the following commands in Linux terminal:
 git clone https://github.com/tuhin1729/MailDiya.git
 cd MailDiya
 chmod +x maildiya.py
-python2 maildiya.py
+python3 maildiya.py
 ```
 
 
