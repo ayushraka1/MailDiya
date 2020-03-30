@@ -57,7 +57,7 @@ To use the scanner type the following commands in Linux terminal:
 git clone https://github.com/tuhin1729/MailDiya.git
 cd MailDiya
 chmod +x maildiya.py
-python3 maildiya.py
+python2 maildiya.py
 ```
 
 
