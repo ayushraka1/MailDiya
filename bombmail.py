@@ -26,7 +26,7 @@ urllist=["http://list.webaim.org/mailman/subscribe/webaim-forum?email="+spam_id+
 for var in range (0,count):
  url=urllist[var]
  requests.get(url)
- print("\033[1;32;40m",(var+1)," email sent successfully")
+ print(' \033[1;32;40m',(var+1),' email sent successfully')
  time.sleep(3)
 banner()
 
