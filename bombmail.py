@@ -27,7 +27,7 @@ for var in range (0,count):
  url=urllist[var]
  requests.get(url)
  print("\033[1;32;40m")
- print((var+1)," email sent successfully")
+ print("E-mail sent successfully :",(var+1))
  time.sleep(3)
 banner()
 
