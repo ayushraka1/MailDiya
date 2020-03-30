@@ -17,9 +17,9 @@ banner()
 print("          \033[1;32;40m[1] \033[1;36;40mAnonymous Mail")
 print("          \033[1;32;40m[2] \033[1;36;40mMail Bombing")
 op=input("\033[1;32;40mDiya>>>")
-if(op=="1"):
+if(op=='1'):
  os.system("python3 anonmail.py")
-elif(op=="2"):
+elif(op=='2'):
  os.system("python3 bombmail.py")
 else:
  print("\033[1;31;40mInvalid option.Quiting...")
