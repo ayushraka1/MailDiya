@@ -44,7 +44,7 @@ pkg install git
 pkg install python2
 git clone https://github.com/tuhin1729/MailDiya.git
 cd MailDiya
-chmod +x maildiya.py
+pip install -r requirements.txt
 python2 maildiya.py
 ```
 
@@ -56,7 +56,7 @@ To use the scanner type the following commands in Linux terminal:
 ```
 git clone https://github.com/tuhin1729/MailDiya.git
 cd MailDiya
-chmod +x maildiya.py
+pip install -r requirements.txt
 python2 maildiya.py
 ```
 
