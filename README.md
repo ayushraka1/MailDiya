@@ -1,4 +1,4 @@
-<h1 align="center">Mail
+<h1 align="center">MailDiya
 
 </h1>
 <p align="center">An open-source Anonymous E-Mail Sender And E-Mail Bombing tool.</p><br>
