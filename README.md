@@ -44,7 +44,7 @@ pkg install git
 pkg install python2
 git clone https://github.com/tuhin1729/MailDiya.git
 cd MailDiya
-pip install -r requirements.txt
+pip2 install -r requirements.txt
 python2 maildiya.py
 ```
 
