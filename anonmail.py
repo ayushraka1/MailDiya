@@ -22,5 +22,5 @@ with requests.session() as s:
  if('The e-mail has been sent anonymously!' in r.text):
   print("\n\033[1;32;40mSuccess.To protect your privacy, E-mail will be sent within 12 hours\n")
  else:
-  print("\n\033[1;31;40mE-mail can't be sent. Try again.\n")
+  print("\n\033[1;31;40mIt seems to me that you are not using a vpn. Use vpn before running the program\n")
    
