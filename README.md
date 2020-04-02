@@ -11,7 +11,7 @@
 ############## YouTube Channel : https://bit.ly/TuhinTheHacker ##############<br>
 ############## Dedicated to    : Diya Saha ##############<br>
 
-## Video Tutorial: https://youtu.be/unAffqccy0Y
+
 
 #### By Changing the name, You won't be a script developer...
 
