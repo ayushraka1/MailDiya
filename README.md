@@ -4,7 +4,7 @@
 <p align="center">An open-source Anonymous E-Mail Sender And E-Mail Bombing tool.</p><br>
 
 
-###############  Coded by      : Tuhin Bose ##############<br>
+###############  Coded by      : tuhin1729 ##############<br>
 ########### Inspired by        : Charlie:The Hacker ##############<br>
 ##############  Instagram id   : www.instagram.com/tuhin1729 ##############<br>
 ##############  Github         : www.github.com/tuhin1729 ##############<br>
